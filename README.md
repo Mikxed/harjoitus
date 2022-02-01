@@ -2,7 +2,7 @@
 
 Voit luoda ja poistaa asiakkaita tässä sovelluksessa.
 
-Customers.vue viewi tarjoaa yksinkertaisen käyttöliittymän toiminnoille. Sieltä kutsutaan api.php sijaitsevia rajapintoja axios pyynnöillä ja ne kulkeutuvat CustomerControlleriin jossa on metodeilla esitetty toiminnat luonnille, poistamiselle ja hakemiselle.
+Ohjelma on toteutettu Laravelin frameworkkia käyttäen. Customers.vue viewi tarjoaa yksinkertaisen käyttöliittymän toiminnoille. Sieltä kutsutaan api.php sijaitsevia rajapintoja axios pyynnöillä ja ne kulkeutuvat CustomerControlleriin jossa on metodeilla esitetty toiminnat luonnille, poistamiselle ja hakemiselle.
 
 .env tiedostoon pitää setupata tietokanta-asetukset kuntoon.
 
