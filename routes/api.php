@@ -23,5 +23,6 @@ Route::middleware('api')->group(function () {
     // Route::resource('customers', CustomerController::class);
     Route::get('/customers', [CustomerController::class, 'getCustomers']);
     Route::post('/customer', [CustomerController::class, 'createCustomer']);
+    Route::post('/customer/edit', [CustomerController::class, 'editCustomer']);
     Route::delete('/customer/{id}', [CustomerController::class, 'deleteCustomer']);
 });
